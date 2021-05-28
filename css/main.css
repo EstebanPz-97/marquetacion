@@ -90,13 +90,20 @@ nav .profile-link a{
     text-align: center;
 }
 .home-main-button{
-    width: 110px;
-    height: 50px;
-    background-color: #260751;
+    width: 90px;
+    height:90px;
+    background-color: #fcf7eb;
     display: grid;
     align-items: center;
+    margin-top: 230px;
+    border-radius: 100px;
+    border-style: 1px solid;
+}
+.home-main-button:hover{
+    background-color:#afaeac ;
 }
 .home-main-button a{
+    color:#58565e;
     font-weight: 700;
     font-size: 18px;   
 }
